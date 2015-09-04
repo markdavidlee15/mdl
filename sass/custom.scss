@@ -1,0 +1,54 @@
+
+.site-title {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	font-size: 2rem;
+	margin: 0px;
+	line-height: 1.2;
+	a{
+		color: $color__dark-brown;
+		text-decoration: none;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+
+.site-description {
+	background: $color__dark-brown;
+	margin: 0px;
+	font-size: 1.2rem;
+	color: #fff;
+	width: 428px;
+	text-align: center;
+}
+.site-footer {
+	clear: both;
+	width: $size__site-main;
+	background-color: $color__dark_brown;
+	color: #fff;
+}
+
+.search-container {
+	line-height: 4;
+	text-align: left;
+	button{
+		border: none;
+		font-size: 1.25em;
+		background: transparent;
+	}
+	img{
+		vertical-align: middle;
+	}
+}
+.post-edit-link{
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	background-color: $color__dark-grey;	
+	text-decoration: none;
+	font-family: sans-serif;
+	padding: 5px 10px;
+	color: #fff !important;
+}
